@@ -3,7 +3,7 @@ py -help
 exit()
 py -m venv venv //create 
 venv\Scripts\activate //enter the vitual environment
-py -m install pip --upgrade pip
+py -m pip install --upgrade pip
 pip install mlagents
 pip install torch torchvision torchaudio //install torch
 pip install onnx
