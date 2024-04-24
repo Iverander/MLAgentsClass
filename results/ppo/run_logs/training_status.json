@@ -1,23 +1,23 @@
 {
-    "basicAgent": {
+    "advancedJumpAgent": {
         "checkpoints": [
             {
-                "steps": 346852,
-                "file_path": "results\\ppo\\basicAgent\\basicAgent-346852.onnx",
-                "reward": 8.700484552616027,
-                "creation_time": 1713983387.7260633,
+                "steps": 37440,
+                "file_path": "results\\ppo\\advancedJumpAgent\\advancedJumpAgent-37440.onnx",
+                "reward": -23.267740567525227,
+                "creation_time": 1713992406.4097095,
                 "auxillary_file_paths": [
-                    "results\\ppo\\basicAgent\\basicAgent-346852.pt"
+                    "results\\ppo\\advancedJumpAgent\\advancedJumpAgent-37440.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 346852,
-            "file_path": "results\\ppo\\basicAgent.onnx",
-            "reward": 8.700484552616027,
-            "creation_time": 1713983387.7260633,
+            "steps": 37440,
+            "file_path": "results\\ppo\\advancedJumpAgent.onnx",
+            "reward": -23.267740567525227,
+            "creation_time": 1713992406.4097095,
             "auxillary_file_paths": [
-                "results\\ppo\\basicAgent\\basicAgent-346852.pt"
+                "results\\ppo\\advancedJumpAgent\\advancedJumpAgent-37440.pt"
             ]
         }
     },
