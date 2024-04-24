@@ -7,6 +7,7 @@ py -m pip install --upgrade pip
 pip install mlagents
 pip install torch torchvision torchaudio //install torch
 pip install onnx
+pip install protobuf==3.20.0
 
 Commonly used CMD commands:
 mlagents-learn //start learning
