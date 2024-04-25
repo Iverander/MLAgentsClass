@@ -10,7 +10,7 @@ public class basicAgent : Agent
 {
     [SerializeField] Transform target;
     [SerializeField] float speed;
-    [SerializeField] float rotSpeed;
+    //[SerializeField] float rotSpeed;
     [SerializeField] float jumpForce;
 
     Vector3 startPos;
@@ -50,8 +50,8 @@ public class basicAgent : Agent
     public override void CollectObservations(VectorSensor sensor)
     {
         sensor.AddObservation(transform.localPosition);
-        sensor.AddObservation(transform.eulerAngles);
-        sensor.AddObservation(lookingAt.point);
+        //sensor.AddObservation(transform.eulerAngles);
+        //sensor.AddObservation(lookingAt.point);
         sensor.AddObservation(target.localPosition);
     }
     public override void OnActionReceived(ActionBuffers actions)
@@ -63,12 +63,12 @@ public class basicAgent : Agent
             actions.ContinuousActions[1]
             );
 
-        Vector3 rotate = new Vector3
-        (
-        0,
-        actions.ContinuousActions[3],
-        0
-        );
+        //Vector3 rotate = new Vector3
+        //(
+        //0,
+        //actions.ContinuousActions[3],
+        //0
+        //);
 
         if (grounded && jumpCooldown <= 0)
         {
@@ -79,7 +79,7 @@ public class basicAgent : Agent
         }
 
         transform.position += move * Time.deltaTime * speed;
-        transform.eulerAngles += rotate * Time.deltaTime * rotSpeed;
+        //transform.eulerAngles += rotate * Time.deltaTime * rotSpeed;
 
         SetReward(-Vector3.Distance(transform.localPosition, target.localPosition) * 10 * Time.deltaTime);
     }

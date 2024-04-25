@@ -709,34 +709,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2330588544069392318}
     m_Modifications:
-    - target: {fileID: 200689090763843782, guid: fc8b0fb1a637d744cad35cb6de2ef66e, type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 200689090763843782, guid: fc8b0fb1a637d744cad35cb6de2ef66e, type: 3}
-      propertyPath: m_BehaviorName
-      value: advancedJumpAgent
-      objectReference: {fileID: 0}
-    - target: {fileID: 200689090763843782, guid: fc8b0fb1a637d744cad35cb6de2ef66e, type: 3}
-      propertyPath: m_BehaviorType
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 200689090763843782, guid: fc8b0fb1a637d744cad35cb6de2ef66e, type: 3}
-      propertyPath: m_BrainParameters.VectorObservationSize
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 200689090763843782, guid: fc8b0fb1a637d744cad35cb6de2ef66e, type: 3}
-      propertyPath: m_BrainParameters.m_ActionSpec.BranchSizes.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 200689090763843782, guid: fc8b0fb1a637d744cad35cb6de2ef66e, type: 3}
-      propertyPath: m_BrainParameters.m_ActionSpec.m_NumContinuousActions
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 200689090763843782, guid: fc8b0fb1a637d744cad35cb6de2ef66e, type: 3}
-      propertyPath: m_BrainParameters.m_ActionSpec.BranchSizes.Array.data[3]
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 3884924421243811113, guid: fc8b0fb1a637d744cad35cb6de2ef66e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5
@@ -781,14 +753,6 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 6037573625807387565}
-    - target: {fileID: 5040310960045642951, guid: fc8b0fb1a637d744cad35cb6de2ef66e, type: 3}
-      propertyPath: rotSpeed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5040310960045642951, guid: fc8b0fb1a637d744cad35cb6de2ef66e, type: 3}
-      propertyPath: jumpForce
-      value: 6.5
-      objectReference: {fileID: 0}
     - target: {fileID: 6933120348438009570, guid: fc8b0fb1a637d744cad35cb6de2ef66e, type: 3}
       propertyPath: m_Name
       value: Agent
